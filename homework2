@@ -1,5 +1,5 @@
-quantity_completed_hw = 12
-quantity_spent_time = 1.5
+quantity_completed_hw = '12'
+quantity_spent_time = '1.5'
 name_of_course = 'Python'
-time_to_1_quest = 0.125
-print('Курс:',name_of_course,', всего задач:',quantity_completed_hw,', затрачено часов:',quantity_spent_time, ', среднее время выполнения ', time_to_1_quest,'часа.')
+time_to_1_quest = '0.125'
+print('Курс: '+name_of_course+', всего задач:'+quantity_completed_hw+', затрачено часов: '+quantity_spent_time+ ', среднее время выполнения '+ time_to_1_quest+' часа.')
