@@ -1,0 +1,9 @@
+myString = input('В аквапарке реально очень классно?')
+quan = len(myString)
+print(quan)
+myString = 'В аквапарке реально очень классно?'
+print(myString .upper())
+print(myString .upper().lower())
+print(myString .replace(' ', ''))
+print(myString[0])
+print(myString[-1])
