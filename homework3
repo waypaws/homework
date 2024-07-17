@@ -1,11 +1,8 @@
 name = ('Arkadiy')
-print(name, type(name))
 age = (22)
-print(age, type(age))
-newAge = (23)
-print(newAge, type(newAge))
-isStudent = True
 print('Name:', name)
 print('Age:', age)
-print('New age:', newAge)
+age = age+1
+isStudent = True
+print('Newage:', age)
 print('Is student:', isStudent)
