@@ -1,0 +1,9 @@
+immutableVar = tuple_ = ([1, 2], 88, 'Анорексия')
+print('Immutabble tuple: ', (immutableVar))
+print('Кортэж не поддерживает обращение к элементам, а только к хранящимся внутри него отедельным изменяемым объектам.')
+print('Например: ')
+tuple_[0][1] = 2666
+print(tuple_)
+mutableList = ['зубная паста',  'слезы', 'геометриия', 969]
+mutableList[0] = 'жухлость'
+print('Mutavle list: ', mutableList)
