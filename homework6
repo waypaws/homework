@@ -1,0 +1,21 @@
+myDict = {'Artur': 45, 'Aleftina': 89, 'Svytoslav': 31}
+print('Dict:', myDict)
+print('Existing value:', myDict['Artur'])
+myDict['Yascheroslav'] = 321
+print('Not existing value:', myDict['Yascheroslav'])
+myDict.update({'Nostradamus': 43278,
+               'Chegvara': 31})
+myDict.update({'Aziz': 44,
+               'Azazin': 33})
+del myDict['Artur']
+print('Delete value:', 45)
+print('Modified dictionary:', myDict)
+
+
+
+
+mySet = {24, 69, 666, 'Ultra', 'SWAGA', 'ASAP', 'ASAP', 24, }
+print('Set:', mySet)
+mySet.update({420, 80085})
+mySet.discard(2)
+print('Modfied set:', mySet)
